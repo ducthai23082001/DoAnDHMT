@@ -20,15 +20,16 @@ public class QueenController : MonoBehaviour
         {
             Quaternion targetRotation = Quaternion.LookRotation(player.transform.position - transform.position);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 1 * Time.deltaTime);
-            transform.position += transform.forward * 1.8f * Time.deltaTime;
+            transform.position += transform.forward * 2.5f * Time.deltaTime;
             //animator.SetBool("walking", true);
         }
         else
         {
+
             Vector3 hardFix = new Vector3(525.8f, 1.000001f, -1248.1f);
             Quaternion targetRotation = Quaternion.LookRotation(hardFix - transform.position);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 1 * Time.deltaTime);
-            transform.position += transform.forward * 4.0f * Time.deltaTime;
+            transform.position += transform.forward * 6.0f * Time.deltaTime;
             //if(transform.position == hardFix)
             //{
             //    animator.SetBool("walking", false);

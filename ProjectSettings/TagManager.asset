@@ -10,6 +10,11 @@ TagManager:
   - Brick3
   - Car
   - Heart
+  - Queen1
+  - Queen2
+  - Queen3
+  - Queen4
+  - Cup
   layers:
   - Default
   - TransparentFX

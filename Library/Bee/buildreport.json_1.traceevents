@@ -1,0 +1,683 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1675439849329884, "dur": 2319734, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675439849330156, "dur": 13501, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675439849343658, "dur": 2300207, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675439851643869, "dur": 5748, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675439851650608, "dur": 39, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1675439849405545, "dur":1985, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439849407538, "dur":423, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1675439849407990, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1675439849408012, "dur":335, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1675439849408383, "dur":605, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439849408988, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568554, "dur":211, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568765, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568778, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568782, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568788, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568791, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568799, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568801, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568809, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568812, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568818, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568821, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568828, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568830, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568838, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568840, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568850, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568869, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851568880, "dur":1199, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1675439849408695, "dur":335, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849409032, "dur":6291, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849415332, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675439849415335, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849415364, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675439849415366, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849415404, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849415994, "dur":2455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1675439849418454, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1675439849418530, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849418564, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849418595, "dur":2337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1675439849421026, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1675439849421116, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849421164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849421178, "dur":6488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":1, "ts":1675439849427772, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439849427798, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849427840, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849427862, "dur":76641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439849504524, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439849504546, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849504591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849504603, "dur":57776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439849562396, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439849562416, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849562454, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849562464, "dur":71664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439849634149, "dur":205861, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439849840010, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849840054, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849840063, "dur":868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439849840944, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439849840956, "dur":19, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849840979, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849840985, "dur":126517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439849967525, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439849967545, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849967591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439849967614, "dur":127323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439850094968, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439850095008, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439850095072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439850095091, "dur":310598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439850405719, "dur":113289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439850519008, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439850519072, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439850519085, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439850520528, "dur":46454, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439850566983, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439850567038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439850567050, "dur":772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439850567845, "dur":65599, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439850633445, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439850633513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439850633523, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439850634346, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439850634367, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439850634394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439850634401, "dur":144437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439850778855, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439850778874, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439850778917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439850778929, "dur":283748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439851062696, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439851062715, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439851062774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439851062786, "dur":123169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439851185974, "dur":274736, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439851460711, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439851460772, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1675439851460781, "dur":708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":1, "ts":1675439851461510, "dur":107056, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849408975, "dur":162, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849409137, "dur":6238, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849415376, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1675439849415463, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849415652, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849416873, "dur":2383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1675439849419401, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1675439849419457, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849419528, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849419553, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1675439849421688, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849421821, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849421868, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849422064, "dur":81549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849503694, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849503725, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849503958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849503971, "dur":53764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849557755, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849558098, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849558143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849558156, "dur":45124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849603399, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849603588, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849603645, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849603658, "dur":48487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849652169, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849652208, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849652316, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849652332, "dur":64234, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849716589, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849716607, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849716643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849716656, "dur":80707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849797384, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849797403, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849797437, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849797446, "dur":35967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849833435, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849833455, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849833489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849833503, "dur":51004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849884528, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849884550, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849884591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849884604, "dur":84103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849968722, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439849968746, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849968787, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439849968801, "dur":86101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439850054966, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439850055031, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439850055185, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439850055221, "dur":57132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439850112372, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439850112391, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439850112436, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439850112458, "dur":265097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439850377585, "dur":84471, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439850462057, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439850462115, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439850462129, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439850462976, "dur":104286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439850567262, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439850567307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439850567315, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439850568212, "dur":20033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439850588246, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439850588293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439850588302, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439850588983, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439850589002, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439850589032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439850589040, "dur":237197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439850826260, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439850826282, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439850826338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439850826350, "dur":471379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1675439851297765, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1675439851297916, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439851298122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439851298145, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1675439851299148, "dur":35687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1675439851334838, "dur":5921, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439851340776, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439851340794, "dur":5746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1675439851346569, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1675439851346607, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439851346616, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/level1" }}
+,{ "pid":12345, "tid":2, "ts":1675439851348165, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1675439851348191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439851348201, "dur":1828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/level0" }}
+,{ "pid":12345, "tid":2, "ts":1675439851350070, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1675439851350360, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439851350431, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1675439851350448, "dur":7220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1675439851357703, "dur":210851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849408851, "dur":223, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849409074, "dur":6278, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849415352, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1675439849415439, "dur":48, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849415490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849416861, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1675439849418953, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1675439849419028, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849419064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849419073, "dur":4458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1675439849423584, "dur":803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2.exe" }}
+,{ "pid":12345, "tid":3, "ts":1675439849424387, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849424444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849424454, "dur":2178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2.exe" }}
+,{ "pid":12345, "tid":3, "ts":1675439849426658, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849426743, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849426827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849426877, "dur":77683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849504581, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849504636, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849504710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849504722, "dur":55215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849559955, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849559978, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849560010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849560019, "dur":54023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849614062, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849614228, "dur":45, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849614442, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849614458, "dur":73213, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849687692, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849687712, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849687751, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849687763, "dur":66250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849754036, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849754059, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849754106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849754121, "dur":43161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849797302, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849797340, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849797391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849797407, "dur":51925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849849349, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849849362, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849849392, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849849400, "dur":46350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849895769, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439849895792, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849895829, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439849895863, "dur":165649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439850061577, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439850061633, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439850061768, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439850065139, "dur":53395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439850118582, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439850118616, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439850118685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439850118702, "dur":287595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439850406313, "dur":103024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439850509338, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439850509386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439850509395, "dur":1203, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439850510630, "dur":41273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439850551904, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439850551986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439850551999, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439850553346, "dur":75235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439850628584, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439850628838, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439850628856, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439850629999, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439850630019, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439850630067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439850630078, "dur":227805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439850857903, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439850857921, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439850857951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439850857962, "dur":320753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439851178754, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439851178785, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439851178852, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1675439851178893, "dur":328711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1675439851507617, "dur":60949, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849409115, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849409115, "dur":6262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849415377, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675439849415455, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849415643, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849416889, "dur":3137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1675439849420087, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1675439849420142, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849420198, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849420210, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1675439849421756, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439849421919, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849422054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849422118, "dur":81645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439849503846, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439849503865, "dur":293, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849504164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849504174, "dur":52700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439849556908, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439849556932, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849556978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849556994, "dur":57771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439849614785, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439849614804, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849614839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849614849, "dur":178927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439849793800, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439849793817, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849793856, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849793872, "dur":39578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439849833470, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439849833497, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849833541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849833552, "dur":134258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439849967831, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439849967853, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849967892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439849967903, "dur":165547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439850133467, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439850133482, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439850133533, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439850133543, "dur":409173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439850542736, "dur":1316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439850544053, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439850544117, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439850544130, "dur":809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439850544957, "dur":49142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439850594099, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439850594147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439850594155, "dur":895, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439850595072, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439850595098, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439850595143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439850595155, "dur":122477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439850717659, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439850717686, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439850717740, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439850717791, "dur":55103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439850772919, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439850772943, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439850772994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439850773009, "dur":319400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439851092430, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439851092453, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439851092495, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439851092507, "dur":201819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1675439851294366, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1675439851294427, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439851294449, "dur":50611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":4, "ts":1675439851345084, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675439851345141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1675439851345154, "dur":9269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/level2.resS" }}
+,{ "pid":12345, "tid":4, "ts":1675439851354449, "dur":214099, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849409247, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849409247, "dur":6077, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849415332, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1675439849415415, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849415459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849416859, "dur":1920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1675439849418845, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1675439849418899, "dur":183, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849419088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849419099, "dur":2515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1675439849421668, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1675439849421721, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849421752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849421760, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1675439849424569, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439849424594, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849424651, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849425023, "dur":79591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439849504639, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439849504668, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849504711, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849504722, "dur":144710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439849649456, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439849649481, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849649520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849649532, "dur":45788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439849695342, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439849695371, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849695413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849695428, "dur":82114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439849777562, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439849777582, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849777627, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849777642, "dur":61713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439849839383, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439849839416, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849839468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849839486, "dur":128611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439849968127, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439849968149, "dur":335, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849968492, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439849968501, "dur":139276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439850107800, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439850107821, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439850107892, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439850107904, "dur":42029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439850149959, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439850149988, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439850150035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439850150051, "dur":297924, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439850447993, "dur":151730, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439850599723, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439850599777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439850599785, "dur":554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439850600353, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439850600363, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439850600388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439850600396, "dur":231961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439850832377, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439850832401, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439850832435, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439850832446, "dur":389102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1675439851221568, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675439851221617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439851221626, "dur":1008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675439851222657, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675439851222689, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439851222704, "dur":801, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675439851223522, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675439851223552, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439851223565, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1675439851224565, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675439851224598, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1675439851224610, "dur":209726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1675439851434370, "dur":134197, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849409368, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849409368, "dur":6008, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849415377, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1675439849415459, "dur":158, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849415645, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849416906, "dur":2675, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1675439849423973, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1675439849424064, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849424122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849424341, "dur":79866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1675439849504272, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439849504597, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849504644, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849504654, "dur":56885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439849561563, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439849561594, "dur":207, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849561815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849561843, "dur":47583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439849609447, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439849609466, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849609508, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849609520, "dur":70078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439849679621, "dur":3712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439849683333, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849683441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849683462, "dur":123536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439849807020, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439849807041, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849807070, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849807078, "dur":51095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439849858199, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439849858231, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849858296, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849858343, "dur":108940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439849967322, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439849967363, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849967418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439849967432, "dur":129838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439850097301, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439850097336, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439850097399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439850097415, "dur":309004, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439850406434, "dur":222914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439850629349, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439850629413, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439850629427, "dur":1162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439850630611, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439850630634, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439850630678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439850630716, "dur":217255, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439850847993, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439850848010, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439850848045, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439850848056, "dur":229288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439851077362, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439851077383, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439851077423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439851077434, "dur":217597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":6, "ts":1675439851295060, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1675439851295097, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439851295111, "dur":5276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1675439851300422, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1675439851300454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1675439851300465, "dur":58120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1675439851358611, "dur":209954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849409604, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849409605, "dur":5746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849415351, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1675439849415434, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849415473, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849417027, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1675439849419002, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1675439849419062, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849419104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849419116, "dur":2348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1675439849421526, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1675439849421578, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849421611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849421621, "dur":1746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1675439849423432, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1675439849423496, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849423530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849423537, "dur":84580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1675439849509067, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439849509114, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849509227, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849509241, "dur":56018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439849565278, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439849565295, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849565330, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849565340, "dur":138859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439849704219, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439849704245, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849704286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849704298, "dur":102340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439849806657, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439849806687, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849806808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849806818, "dur":65780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439849872621, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439849872642, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849872681, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849872694, "dur":94734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439849967449, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439849967472, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849967517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439849967531, "dur":92656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439850060273, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439850060347, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439850060501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439850060535, "dur":127438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439850188005, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439850188407, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439850188443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439850188452, "dur":217423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439850405892, "dur":106547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439850512444, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439850512533, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439850512546, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439850513659, "dur":69220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439850582880, "dur":372, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439850583259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439850583269, "dur":757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439850584055, "dur":10053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439850594108, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439850594152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439850594160, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439850594942, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439850594959, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439850594993, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439850595001, "dur":276752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439850871768, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439850871780, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439850871804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439850871812, "dur":281059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439851152889, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439851152910, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439851152944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1675439851152955, "dur":415537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1675439851568519, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1675439851568523, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849409497, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849409497, "dur":5878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849415375, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1675439849415442, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849415588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849416877, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1675439849419027, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1675439849419085, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849419135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849420079, "dur":1514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1675439849421650, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1675439849421713, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849421752, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849421962, "dur":876, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1675439849422901, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439849422960, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849422989, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849422996, "dur":80878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439849503929, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439849503949, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849504065, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849504077, "dur":58193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439849562290, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439849562311, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849562349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849562359, "dur":91836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439849654222, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439849654250, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849654288, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849654318, "dur":118525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439849772865, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439849772886, "dur":2444, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849775343, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849775359, "dur":61186, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439849836560, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439849836575, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849836605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849836614, "dur":45559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439849882198, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439849882224, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849882277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849882295, "dur":93454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439849975776, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439849975800, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849975847, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439849975863, "dur":134205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439850110110, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439850110140, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439850110188, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439850110207, "dur":295809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439850406039, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439850406058, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439850406153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439850406166, "dur":88596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439850494788, "dur":146496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439850641285, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439850641331, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439850641340, "dur":581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439850641931, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439850641945, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439850641966, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439850641971, "dur":153739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439850795729, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439850795748, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439850795786, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439850795798, "dur":422078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":8, "ts":1675439851217905, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1675439851218068, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439851218151, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439851218398, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1675439851219235, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1675439851219656, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439851219718, "dur":1320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1675439851221058, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675439851221086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439851221097, "dur":75511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675439851297368, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675439851297429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439851297451, "dur":1811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675439851299284, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/resources.resource" }}
+,{ "pid":12345, "tid":8, "ts":1675439851299315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439851299329, "dur":41545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/resources.resource" }}
+,{ "pid":12345, "tid":8, "ts":1675439851340901, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675439851340931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439851340941, "dur":1387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675439851342366, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/level3.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675439851342400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439851342413, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/level3.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675439851344642, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1675439851344682, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439851344698, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1675439851345702, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1675439851345727, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439851345735, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1675439851347136, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675439851347168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439851347183, "dur":1226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1675439851348426, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675439851348475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439851348484, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1675439851349647, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1675439851349682, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1675439851349695, "dur":999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/DOCUMENTS/DHXD/IV hoc ki 1/BLOCK-2/DoAnDHMT/Build/DoAnDHMT_NguyenDucThai_177564_64PM2_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1675439851350710, "dur":217839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1675439851571509, "dur":2398, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1675439851650806, "dur": 2885, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1675439851650570, "dur": 3198, "ph": "X", "name": "Write chrome-trace events", "args": {} },

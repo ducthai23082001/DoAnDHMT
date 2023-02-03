@@ -63,6 +63,10 @@ public class PersonController : MonoBehaviour
             other.gameObject.SetActive(false);
             calHeart(2);
         }
+        else if (other.gameObject.tag == "Cup")
+        {
+            SceneManager.LoadScene(3);
+        }
     }
 
     void OnCollisionStay(Collision other)
